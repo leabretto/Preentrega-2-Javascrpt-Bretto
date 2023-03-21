@@ -11,7 +11,7 @@
 
 .productos{
     height: 500px;
-    background-image: url(../imagenes/wood-g87e108b7e_640.jpg);
+    background-image: url(./imagenes/wood-g87e108b7e_640.jpg);
 }
 
 /* hacer las tarjetitas con grid  */
