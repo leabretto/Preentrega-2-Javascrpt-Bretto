@@ -12,6 +12,7 @@
 .productos{
     height: 500px;
     background-image: url(./imagenes/wood-g87e108b7e_640.jpg);
+    margin-top: 0;
 }
 
 /* hacer las tarjetitas con grid  */
@@ -75,6 +76,15 @@ img{
     height: 900px;
 }
 }
+
+@media only screen and (max-width: 400px){
+    .tarjetitas a{
+        padding: 5px;
+
+    }
+    
+
+    }
 
 .carrito{
     position: fixed;
