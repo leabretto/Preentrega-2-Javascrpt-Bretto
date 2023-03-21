@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Smokum&display=swap');
+
+:root{
+--font1: 'Roboto', sans-serif;
+--font2: 'Smokum', cursive;
+}
+
+/*.navbar{
+    box-shadow: 50px 50px 50px 50px whitesmoke;
+}*/
+
+.productos{
+    height: 500px;
+    background-image: url(../imagenes/wood-g87e108b7e_640.jpg);
+}
+
+/* hacer las tarjetitas con grid  */
+
+.tarjetitas p{
+        color: white;
+        flex-grow: 1;
+        text-align: center;
+        
+}
+
+img{
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.img1{
+    width: 170px;
+    padding: 10px;
+}
+
+.contenedor-tarjetitas{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.tarjetitas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.tarjetitas a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding-block: 10px;
+    font-family: var(--font2);
+    font-size: 24px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
+
+.tarjetitas a:hover{
+    background-color: black;
+    color: white;
+}
+
+@media only screen and (max-width: 623px){
+.productos{
+    height: 900px;
+}
+}
+
+.carrito{
+    position: fixed;
+    top: 150px;
+    right: 30px;
+}
+
+i{
+    position: relative;
+    color: aliceblue;
+    font-size: 40px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color: red;
+    padding: 10px;
+    border: 2px solid black;
+    
+}
